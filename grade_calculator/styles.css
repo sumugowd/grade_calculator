@@ -53,11 +53,50 @@ button:hover{
 }
 
 .result{
-    margin-top: top 25px;
+    margin-top: 25px;
     padding: 15px;
     background: #222;
     border-radius: 6px;
     font-size: 16px;
     display: none;
     border-left: 4px solid #00eaff;
+}
+
+.subject-block{
+    background: #252525;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.subject-block input{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.removeBtn{
+    background: #ff4444;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#subjects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 480px){
+    #subjects{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 480px){
+    #subjects{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
