@@ -1,0 +1,19 @@
+# Compiled output
+*.exe
+*.out
+app
+
+# Object files
+*.o
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+
+# Data files (IMPORTANT)
+data/*.txt
+
+# Logs
+*.log
